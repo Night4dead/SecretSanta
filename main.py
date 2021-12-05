@@ -32,7 +32,8 @@ mails = {}
 
 
 def saveResult(result):
-    pass
+    fs.save_to_file(result)
+    print("finished saving to files, happy secret santa !")
 
 def sendResult(result,mails):
     print("sending mails ... ")
