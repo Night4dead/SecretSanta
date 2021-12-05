@@ -1,5 +1,5 @@
 from typing import OrderedDict
-import helpers as lh
+import tools.helpers as lh
 from time import sleep
 
 test_dict = {"one":"three","two":"five","three":"one","four":"four","five":"two"}

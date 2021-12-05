@@ -1,12 +1,16 @@
-from secret_santa import dispSecretSantaList
-from secret_santa import secretSantaAuto
-import os
-import helpers as lh
-from smtp_mail_server import usemail
-from smtp_mail_server import configserver
-from message_generator import messageGen
-import file_saver as fs
+#Secret_santa imports
+from secret_santa.secret_santa import dispSecretSantaList, secretSantaAuto
+from secret_santa.message_generator import messageGen
 
+#Tools
+import tools.helpers as lh
+from tools.smtp_mail_server import usemail, configserver
+import tools.file_saver as fs
+
+
+import os
+
+#test files
 try:    
     from mail_credentials import s_mail, s_password
     no_credentials = False
