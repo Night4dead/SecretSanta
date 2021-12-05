@@ -1,0 +1,5 @@
+__pycache__/
+test_couples_mails.py
+mail_credentials.py
+.git
+save/
